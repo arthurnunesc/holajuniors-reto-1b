@@ -39,7 +39,14 @@ nav button {
 main {
     background-color: #f1f1f1;
     padding-top: 53px;
-    padding-bottom: 115px;
+    padding-bottom: 60px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgba(153, 153, 167, 0);
+}
+
+.home {
+    flex-direction: row;
 }
 
 img {
@@ -97,6 +104,10 @@ img {
     padding-bottom: 145px;
 }
 
+.habilidades h2 {
+    padding-top: 50px;
+}
+
 .center {
     width: 60%;
     margin: 0 20% 0 20%;
@@ -106,6 +117,7 @@ img {
 .itens-habilidades ul {
     width: 100%;
     text-align: center;
+    flex-direction: row;
 }
 
 .itens-habilidades li {
@@ -137,21 +149,28 @@ img {
 .experiencia h2 {
     padding-top: 100px;
 }
+.footer {
+    width: 60%;
+    margin: 0 20%;
+    text-align: center;
+}
 
 footer {
+    background-color: #f1f1f1;
     width: 100%;
     height: 400px;
-    background-color: #f1f1f1;
     padding-top: 300px;
     line-height: 40px;
 }
+
 footer h1 {
     padding-bottom: 135px;
 }
+
 footer h1 a {
     color: #482BE7;
-
 }
+
 svg {
     fill: #9999A7;
 }
@@ -160,4 +179,83 @@ svg {
     padding: 0 37% 0 37%;
     align-items: center;
     justify-content: space-around;
+}
+
+
+@media screen and (max-width: 1279px) {
+    nav {
+        padding: 0 8%;
+    }
+    .home {
+       flex-direction: column; 
+       align-items: center;
+    }
+    .center {
+        width: 80%;
+        margin: 0 10%;
+        text-align: left;
+    }
+    .text {
+        width: 80%;
+    }
+    .home .text h2 {
+        padding-top: 40px;
+    }
+    .home .text p {
+        padding-bottom: 20px;
+    }
+    .text p {
+        padding-bottom: 40px;
+    }
+    main {
+        outline-color: rgba(153, 153, 167, 1.0);
+    }
+    img {
+        width: 70%;
+    }
+    .footer {
+        width: 60%;
+    }
+    footer {
+        text-align: center;
+        height: 200px;
+        padding-top: 100px;
+    }
+    footer h1 {
+        font-size: 22px;
+        align-items: center;
+        padding-bottom: 40px;
+
+    }
+    .footer-links {
+        padding: 0 10%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    svg {
+        width: 26px;
+    }
+    .habilidades {
+        padding-bottom: 100px;
+    }
+    .itens-habilidades ul {
+        flex-direction: column;
+        align-items: left;
+        padding: 0 13%;
+    }
+
+    .itens-habilidades li {
+        width: 40%;
+        text-align: left;
+        padding-bottom: 80px;
+    }
+    .experiencia .text {
+        text-align: center;
+        width: 70%;
+        margin: 0 15%;
+    }
+    .experiencia .text h2 {
+        padding-bottom: 18px;
+    }
+    
 }
