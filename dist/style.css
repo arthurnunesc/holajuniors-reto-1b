@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #1E0E62;
+
+}
+
+nav {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center;
+ 
+}
+
+nav button {
+    font-size: 16px;
+    font-weight: 500;
+    height: 40%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white; /* Green */
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+}
+
+main {
+    background-color: #f1f1f1;
+    padding-top: 53px;
+    padding-bottom: 115px;
+}
+
+img {
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-family: 'DM Sans', sans-serif;
+    color: #1E0E62;
+    width: 30%;
+    padding-bottom: 40px;
+}
+
+.text h2 {
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.text h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text h4 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.text p {
+    font-size: 22px;
+    color: rgba(21, 20, 57, 0.4);
+    padding-bottom: 95px;
+
+}
+
+.text small {
+    font-size: 16px;
+    color: rgba(21, 20, 57, 0.4);
+    padding-bottom: 0px;
+}
+
+.habilidades{
+    width: 100%;
+    background-color: #f1f1f1;
+    display: inline-block;
+    align-items: center;
+    padding-bottom: 145px;
+}
+
+.center {
+    width: 60%;
+    margin: 0 20% 0 20%;
+    text-align: center;
+}
+
+.itens-habilidades ul {
+    width: 100%;
+    text-align: center;
+}
+
+.itens-habilidades li {
+    width: 18%;
+}
+
+.experiencia {
+    display: inline-block;
+    width: 100%;
+}
+
+.experiencia button {
+    font-size: 16px;
+    font-weight: 500;
+    height: 40%;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #25DAC5; /* Green */
+    border: none;
+    border-radius: 100px;
+}
+
+.experiencia button a {
+    color: white;
+    font-size: 18px;
+}
+
+.experiencia h2 {
+    padding-top: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #f1f1f1;
+    padding-top: 300px;
+    line-height: 40px;
+}
+footer h1 {
+    padding-bottom: 135px;
+}
+footer h1 a {
+    color: #482BE7;
+
+}
+svg {
+    fill: #9999A7;
+}
+
+.footer-links {
+    padding: 0 37% 0 37%;
+    align-items: center;
+    justify-content: space-around;
+}
